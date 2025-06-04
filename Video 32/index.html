@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Multi Color Website</title>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Cherry+Bomb+One&family=Oswald:wght@200..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+    </style>
+    <style>
+      :root {
+        --color: pink;
+        --seccolor: rgb(148, 33, 125);
+        --contrast-level: 180%; /* Adjust contrast level */
+      }
+
+      * {
+        padding: 0;
+        margin: 0;
+        font-family: "Cherry Bomb One", system-ui;
+        font-weight: 400;
+        font-style: normal;
+      }
+
+      .nav ul li {
+        width: 100vw;
+        padding: 20px 12px;
+      }
+
+      ul {
+        display: flex;
+        height: 60px;
+      }
+
+      li {
+        background-color: var(--seccolor);
+        display: flex;
+        list-style: none;
+      }
+
+      .nav ul li:first-child {
+        background-color: var(--color);
+        color: var(--seccolor);
+        filter: contrast(var(--contrast-level));
+      }
+
+      ul li a{
+        text-decoration: none;
+        color: rgb(222, 150, 150);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="nav">
+      <ul>
+        <li><a href="/">Home</li></a>
+        <li><a href="/">About</li></a>
+        <li><a href="/">Contact</li></a>
+      </ul>
+    </div>
+  </body>
+</html>

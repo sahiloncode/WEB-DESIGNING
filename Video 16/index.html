@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>CSS Selectors</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    /* element selector */
+    div{
+      background-color:purple;
+      color:white;
+    }
+    /* id selector */
+    #second{
+      background-color:pink;
+      color:white;
+    }
+
+    /* class selector */
+    .third{
+      background-color:rgb(202, 10, 128);
+      color:white;
+    }
+
+    /* child selector */
+     div > p{
+       background-color:rgb(239, 160, 12);
+        color:white;
+     }
+
+     /* dsesender selector */
+      div p{
+        background-color:rgb(12, 160, 239);
+          color:white;
+      }
+
+    /* universal selector */
+    *{
+      margin:0;
+      padding:0;
+    }
+     
+    /* psudo selector */
+
+    a:visited{
+      color:purple;
+    }
+
+    a:link{
+      color:green;
+    }
+
+    a:active{
+      color:gray;
+    }
+    a:hover{
+      background-color:aqua;
+    }
+  </style>
+</head>
+<body>
+  <div>This Is A Div <article><p>Hello</p>
+  </article>
+ </div>
+  <div id="second">This Is 2ND Div</div>
+  <div class="third">This Is 3RD Div</div>
+  <a href="https://www.google.com">Go To Google</a>
+  <a href="https://www.facebook2.com">Go To facebook</a>
+  <a href="https://www.gemini.com">Go To gemini</a>
+</body>
+</html>

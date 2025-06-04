@@ -1,0 +1,21 @@
+header{
+  background-color: bisque;
+}
+
+nav{
+  background-color: lightblue;
+  padding: 10px;
+   display: flex;
+  justify-content: space-between;
+}
+
+main{
+  background-color: lightyellow;
+  padding: 20px;
+  display: flex;
+}
+footer{
+  background-color: rgb(188, 237, 188);
+  padding: 10px;
+  text-align: center;
+}

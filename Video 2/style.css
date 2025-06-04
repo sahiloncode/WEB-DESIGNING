@@ -1,0 +1,32 @@
+body{
+
+  background-color:blanchedalmond;
+  color: white;
+  height: 100%;
+  width:100%;
+  display:flex;  
+}
+h1{
+  color: azure;
+  text-align: center;
+  font-size: 50px;
+  text-shadow: 2px 2px 5px black;
+}
+h2{
+  color: pink;
+  text-align: center;
+  font-size: 35px;
+  text-shadow: 2px 2px 5px black;
+}
+h3{
+  color: orange;
+  text-align: center;
+  font-size: 35px;
+  text-shadow: 2px 2px 5px black;
+}
+h4{
+  color: greenyellow;
+  text-align: center;
+  font-size: 35px;
+  text-shadow: 2px 2px 5px black;
+}

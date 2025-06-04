@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head></head>
+  <title>CSS Variables</title>
+  <style>
+
+    :root{
+      --color:purple;
+      --seccolor:rgb(231, 176, 220);
+      --defpad:23px;
+      --defop:0.4;
+    }
+
+  *{
+    margin: 0;
+    padding: 0;
+  }
+
+.nav{
+    background-color:var(--color);
+  }
+
+  .container{
+    background-color: var(--seccolor);
+  }
+
+  ul{
+    display: flex;
+  }
+
+  ul li{
+    list-style:none;
+    padding:var(--defpad);
+    border:2px solid var(--seccolor);
+    opacity: var(--defop);
+  }
+
+  ul li:first-child{
+    --color:rgb(69, 215, 69);
+    background-color: var(--color);
+  }
+  </style>
+</head>
+<body>
+  <div class="nav">
+    <ul>
+      <li>Home</li>
+      <li>About</li>
+      <li>Contact</li>
+    </ul>
+  </div>
+  <div class="container">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo a dolore est nostrum ratione officia quibusdam tenetur itaque veniam totam nesciunt ut optio, corrupti reprehenderit? Ea expedita nihil adipisci sunt itaque ratione nulla officiis dolorem quasi laborum aliquam doloribus, vitae fugit fugiat aliquid, ullam minima.</div>
+</body>
+</html>

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>CSS Positioning And Properties</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+
+      .box {
+        height: 433px;
+        width: 80vw;
+        padding: 3px;
+        margin: 3px;
+        border: 2px solid pink;
+      }
+
+      .box1 {
+        background-color: lightblue;
+         /* position: sticky;
+        top: 0px;
+        height: 111px;
+        width: 100%;
+        margin: 0;
+        padding: 0; */
+        position: absolute;
+        top: 3px; 
+
+      }
+
+      .box2 {
+        background-color: purple;
+       
+
+        /* position: relative;
+        top: 35px;
+        left: 50px; */
+      }
+
+      .box3 {
+        background-color: pink;
+        /* position: fixed;
+        bottom: 0px;
+        left:8vw;
+        height: 111px; */
+      }
+
+      .box4 {
+        background-color: lightgreen;
+      }
+
+      .parent {
+        padding: 23px;
+        margin: 34px;
+        background-color: rgb(197, 110, 123);
+        border: 2px solid;
+        position: relative;
+
+        /* exception:Transform, Filter, or persepective properties can also make an element apper as positioned */
+             
+        /* transform: translate(0);
+        filter: invert(0);
+        perspective: 0em; */
+      } 
+    </style>
+  </head>
+  <body>
+    <div class="parent">
+      <div class="box box1">Box 1</div>
+      <div class="box box2">Box 2</div>
+      <div class="box box3">Box 3</div>
+      <div class="box box4">Box 4</div>
+    </div>
+  </body>
+</html>

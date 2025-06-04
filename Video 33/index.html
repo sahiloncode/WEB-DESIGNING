@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Float And Clear</title>
+    <style>
+      .cards {
+        border: 2px solid greenyellow;
+        display: flow-root; /* this will set the picture in container and remove the float*/
+      }
+
+      img {
+        float: left;
+      }
+      .card {
+        border: 2px solid purple;
+      }
+
+      .card:nth-child(4) {
+        background-color: aqua;
+        clear: left; /* this will clear the float and set the card below the image */
+      }
+    </style>
+  </head>
+  <body>
+    <div class="cards">
+      <img
+        src="https://wallpaperaccess.com/full/1698534.jpg"
+        alt="Image"
+        width="244px"
+      />
+      <div class="card">
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Error, id.
+          Sapiente labore, totam debitis cumque voluptas ex exercitationem quas
+          doloribus porro vel fugit odit, atque quisquam! Dolorum?
+        </p>
+      </div>
+      <div class="card">Card 2</div>
+      <div class="card">
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eaque nisi
+        atque dolore labore, similique aliquam quam architecto alias eveniet
+        fugiat neque impedit eum eius explicabo veritatis? Possimus praesentium
+        alias, placeat numquam, ipsa inventore consequuntur aliquam enim autem
+        expedita est animi. Eos vel repudiandae autem atque magni eligendi,
+        laborum hic. Corrupti ipsam quos nisi deserunt eos nostrum magni? Sint
+        fuga unde amet voluptatem vitae quas assumenda sit rem, dolor id, quia
+        nisi rerum quis eum alias voluptate, reprehenderit illum ab et
+        laboriosam odio consectetur ad aspernatur? Itaque maiores temporibus
+        sequi odio amet iste obcaecati beatae doloremque a molestias, accusamus
+        perspiciatis quod soluta, nam neque vel. Quis nam est cupiditate
+        officiis qui voluptatem corporis, quidem fuga consequatur ullam autem
+        ipsam veritatis tempore provident nesciunt nostrum asperiores odio
+        dolorem nobis quod necessitatibus hic? Laborum odio, nam culpa autem
+        veritatis rerum iure maxime. Numquam necessitatibus possimus ducimus
+        architecto placeat deleniti quisquam? Vitae obcaecati, dolorem, dicta
+        nesciunt ea fuga unde ipsa, voluptas impedit esse debitis! Dolores cum,
+        sequi autem iure placeat voluptatem facilis modi voluptatibus eius
+        mollitia sunt similique maiores optio explicabo in, incidunt excepturi
+        voluptas amet vel soluta odit minus accusantium. Beatae aut
+        necessitatibus, consequuntur illo fugit voluptatem odit voluptatibus
+        corrupti ipsa iste iusto, repudiandae soluta culpa. Fugit vero suscipit
+        ea debitis quisquam deleniti, ad veritatis officia. Voluptas natus
+        impedit dolorem, ipsam corrupti laboriosam harum eos recusandae eligendi
+        cumque exercitationem nesciunt, repudiandae, aspernatur eaque maiores!
+        Ipsum.
+      </div>
+    </div>
+  </body>
+</html>
