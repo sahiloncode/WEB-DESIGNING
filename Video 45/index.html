@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSS Animation</title>
+  <style>
+    .container{
+      background-color: rgb(224, 36, 164);
+      height: 80vh;
+      width: 30vw;
+    }
+
+    .box{
+    
+     height: 45px;
+     width: 34px;
+     /* animation-name: sampleAnimation;
+     animation-duration: 3s;
+     animation-iteration-count:5;
+     animation-timing-function: cubic-bezier(0,0,0,0.96);
+     animation-delay: 3s;
+     /* animation-direction: alternate-reverse; */
+     /* animation-play-state: paused ; */ 
+     /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+     animation: sampleAnimation 3s ease-in-out 3s 1 backwards;
+    }
+    
+    @keyframes sampleAnimation {
+    from{
+       background-color: plum;
+    }
+    to{
+      background-color: rgb(43, 225, 37);
+      transform: translateX(1000px);
+    }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="box">Box</div>
+  </div>
+</body>
+</html>
