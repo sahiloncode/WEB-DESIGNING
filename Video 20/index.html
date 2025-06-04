@@ -1,39 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-<title>CSS Specificity & Cascade</title>
-<style>
-        /* The Specificity Of This Seclector Is 1 */
-  h1{
-    color:purple;
-  }
-  /* The Specififcity Of This Selector Is 10 */
+  <head>
+    <title>CSS Specificity & Cascade</title>
+    <style>
+      /* The Specificity Of This Seclector Is 1 */
+      h1 {
+        color: purple;
+      }
+      /* The Specififcity Of This Selector Is 10 */
 
-  .yellow{
-    color:blueviolet;
-  }
-   
-    /* The Specificty Of This Selctor Is 10 */
+      .yellow {
+        color: blueviolet;
+      }
 
-  .cred{
-    color:orange;
-  }
+      /* The Specificty Of This Selctor Is 10 */
 
-    /* The Specificty Of This Selctor Is 10 */
+      .cred {
+        color: orange;
+      }
 
-  .cpurple{
-    color:pink;
-  }
+      /* The Specificty Of This Selctor Is 10 */
 
-  /* This Is An Example Of Attribute Selector The Specificity Of This Attribute Is 10 */
-  
-  /* [data-x=a] {
+      .cpurple {
+        color: pink;
+      }
+
+      /* This Is An Example Of Attribute Selector The Specificity Of This Attribute Is 10 */
+
+      /* [data-x=a] {
     background-color: red;
   } */
-
-</style>
-</head>
-<body>
-  <h1 class="yellow cred cpurple" data-x="a">CSS Specificity</h1>
-</body>
+    </style>
+  </head>
+  <body>
+    <h1 class="yellow cred cpurple" data-x="a">CSS Specificity</h1>
+  </body>
 </html>

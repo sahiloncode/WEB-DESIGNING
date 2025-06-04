@@ -1,44 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>CSS Transformation</title>
-<style>
-  .container{
-    height: 60vh;
-    width: 100vh;
-    border: 2px solid rgb(12, 202, 199);
-  }
-  .box{
-    height: 50px;
-    width: 60px;
-    background-color: pink;
-    border: 2px solid black;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    /* transform: rotate(0.5turn); */
-    /* transform: rotateX(40deg); */
-    /* transform: rotateY(9deg); */
-    /* transform: rotateZ(9deg); */
-    /* transform: scale(1.5); */
-    /* transform: scaleX(1.5); */
-    /* transform: scaleY(1.5); */
-    /* transform: skew(20deg); */
-    /* transform: skewY(20deg); */
-    /* transform: skewX(20deg); */
-    /* transform: translate(20px); */
-    /* transform: translateX(20px); */
-    /* transform: translateY(20px); */
-    transform: translateX(100%) skewY(40deg) translateX(45%) rotate(20deg);
-
-  }
-</style>
-</head>
-<body>
-  <div class="container">
-    <div class="box">BOX</div>
-  </div>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Transformation</title>
+    <style>
+      .container {
+        height: 60vh;
+        width: 100vh;
+        border: 2px solid rgb(12, 202, 199);
+      }
+      .box {
+        height: 50px;
+        width: 60px;
+        background-color: pink;
+        border: 2px solid black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* transform: rotate(0.5turn); */
+        /* transform: rotateX(40deg); */
+        /* transform: rotateY(9deg); */
+        /* transform: rotateZ(9deg); */
+        /* transform: scale(1.5); */
+        /* transform: scaleX(1.5); */
+        /* transform: scaleY(1.5); */
+        /* transform: skew(20deg); */
+        /* transform: skewY(20deg); */
+        /* transform: skewX(20deg); */
+        /* transform: translate(20px); */
+        /* transform: translateX(20px); */
+        /* transform: translateY(20px); */
+        transform: translateX(100%) skewY(40deg) translateX(45%) rotate(20deg);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="box">BOX</div>
+    </div>
+  </body>
 </html>
