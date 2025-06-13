@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Create A Bounce Animation</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 40vh;
+        width: 50vw;
+      }
+      div {
+        display: flex;
+        align-items: flex-end;
+        height: 60vh;
+        width: 70vw;
+        background-color: aqua;
+        text-align: center;
+        position: relative;
+      }
+
+      .box {
+        width: 70px;
+        height: 70px;
+        background-color: red;
+        border-radius: 50px;
+        text-align: center;
+        justify-content: center;
+        padding: 28px;
+        animation: bounce 5s forwards;
+        animation-timing-function: ease-in-out;
+      }
+
+      @keyframes bounce {
+        0% {
+          transform: translate(0, 0);
+        }
+        10% {
+          transform: translate(80px, -150px);
+        }
+        20% {
+          transform: translate(160px, 0);
+        }
+        30% {
+          transform: translate(240px, -120px);
+        }
+        40% {
+          transform: translate(320px, 0);
+        }
+        50% {
+          transform: translate(400px, -100px);
+        }
+        60% {
+          transform: translate(480px, 0);
+        }
+        70% {
+          transform: translate(560px, -80px);
+        }
+        80% {
+          transform: translate(640px, 0);
+        }
+        90% {
+          transform: translate(720px, -60px);
+        }
+        100% {
+          transform: translate(800px, 0);
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <div class="box">Ball</div>
+    </div>
+  </body>
+</html>
