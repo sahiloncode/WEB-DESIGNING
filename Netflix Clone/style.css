@@ -85,11 +85,11 @@ nav button {
 
 .btn {
   padding: 3px 8px;
-  font-weight:400;
+  font-weight: 400;
   color: white;
   background-color: rgba(243, 243, 243, 0.021);
   border: 1px solid white;
-cursor: pointer;
+  cursor: pointer;
 }
 
 .btn-red {
@@ -119,4 +119,71 @@ cursor: pointer;
   background-color: rgba(23, 23, 23, 0.7);
   border: rgba(246, 238, 238, 0.5);
   color: white;
+}
+
+.first {
+  display: flex;
+  justify-content: center;
+  max-width: 70vw;
+  margin: auto;
+  color: white;
+  align-items: center;
+}
+
+.secimg {
+  position: relative;
+}
+.secimg img {
+  width: 30vw;
+  position: relative;
+  z-index: 10;
+}
+
+.secimg video {
+  position: absolute;
+  top: 51px;
+  right: 0;
+  width: 26vw;
+}
+
+.first > div :first-child {
+  font-size: 48px;
+  font-weight: bolder;
+}
+.first > div :nth-child(2) {
+  font-size: 24px;
+}
+
+section.first > div {
+  display: flex;
+  flex-direction: column;
+}
+
+.feq h2 {
+  text-align: center;
+  font-size: 48px;
+}
+.feq {
+  background: black;
+  color: white;
+  padding: 34px;
+}
+.feqbox:hover {
+  background-color: #414141;
+  color: white;
+}
+.feq svg {
+  filter: invert(1);
+}
+.feqbox {
+  transition: all 2s ease-out;
+  display: flex;
+  justify-content: space-between;
+  padding: 34px;
+  background-color: #2d2d2d;
+  font-size: 24px;
+  padding: 24px;
+  max-width: 60vw;
+  margin: 34px auto;
+  cursor: pointer;
 }
