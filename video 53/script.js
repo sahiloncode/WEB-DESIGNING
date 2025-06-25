@@ -10,3 +10,5 @@ if (isTrue) {
   console.log("You Are Safe")
 }
 console.log("Your Number is " + a)
+ document.title="let's Test"
+ document.body.style.backgroundColor='aqua';
