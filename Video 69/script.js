@@ -1,0 +1,12 @@
+document.getElementById("box1").style.backgroundColor="pink";
+document.getElementById("box1").style.color="white";
+document.getElementById("box2").style.backgroundColor="orange";
+document.getElementById("box2").style.color="white";
+document.getElementById("box3").style.backgroundColor="aqua";
+document.getElementById("box3").style.color="white";
+document.getElementById("box4").style.backgroundColor="blue";
+document.getElementById("box4").style.color="white";
+document.getElementById("box5").style.backgroundColor="aquamarine";
+document.getElementById("box5").style.color="white";
+document.getElementById("box6").style.backgroundColor="lightblue";
+document.getElementById("box6").style.color="white";
